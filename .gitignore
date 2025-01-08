@@ -1,0 +1,13 @@
+# .gitignore 
+.DS_Store 
+__pycache__/ 
+*.pyc 
+*.pyo 
+.venv/ 
+
+*.csv
+uv.lock
+.python-version
+
+.devcontainer/
+.vscode/
