@@ -25,8 +25,8 @@ Before you begin, ensure that you have the following installed on your system:
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/Fredon/Dashboard_Hugo_Fredon.git
-    cd Dashboard_Hugo_Fredon/Fredon_1347
+    git clone https://github.com/patrik-fredon/Admin_ConsoleDashboard.git
+    cd Admin_ConsoleDashboard/
     ```
 
 2. **Install Dependencies**
@@ -34,6 +34,8 @@ Before you begin, ensure that you have the following installed on your system:
     Install all required Python packages using pip:
 
     ```sh
+    python -m venv .venv
+    source .venv/scripts/activate
     pip install -r requirements.txt
     ```
 
